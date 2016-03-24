@@ -6,12 +6,13 @@
 
 
 .header{ 
+    color: white;
     margin: 0 1.0% 10px 1.0%;
     height: 55px;
     text-align: center;
-    background-color:darkgray;
+    background-color:black;
     line-height: 50px;
-    color: black;
+    
 }
 /* NAV
 */
@@ -117,10 +118,6 @@ body {
  
 }
 
-/* HOVER */
-A.home a:hover{
-    color: white;
-}
 
 li{
     list-style: none;
