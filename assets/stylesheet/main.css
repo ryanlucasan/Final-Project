@@ -1,0 +1,154 @@
+.body{ 
+  color: black;
+    font-family: Helvetica Neue;
+    
+}
+
+
+.header{ 
+    margin: 0 1.0% 10px 1.0%;
+    height: 55px;
+    text-align: center;
+    background-color:darkgray;
+    line-height: 50px;
+    color: black;
+}
+/* NAV
+*/
+
+.nav{
+    display: inline;
+    font-size: 20px;
+    text-align: center;
+    word-spacing: 100px;
+}
+
+.section1{
+    text-indent: 100px;
+    width: auto;
+}
+.section2{
+    margin: 30px;
+    text-indent: 30px;
+    border-radius: 10px;
+    font-size: 50px;
+     border: 1px solid;
+    width: 600px;
+    height: 600px;
+    display: block;
+    background-color: white;
+}
+.section3{
+    width: auto;
+    
+}
+
+
+@media (orientation:portrait) {
+   .section2 {
+      display: none;
+   }
+}
+@media (orientation:landscape) and (max-width: 740px) {
+   .section2 {
+      display: none;
+   }
+}
+@media (orientation:portrait) {
+   .section3 {
+      display: none;
+   }
+}
+@media (orientation:landscape) and (max-width: 900px) {
+   .section3 {
+      display: none;
+   }
+}
+@media (orientation:portrait) {
+   .contact {
+      display: none;
+   }
+}
+@media (orientation:landscape) and (max-width: 767px) {
+   .contact {
+      display: none;
+   }
+}
+
+
+.p1{
+    font-size: 50px;
+    
+}
+.p2{
+    line-height: 5px;
+    font-size: 20px;
+   
+    
+}
+.p3{
+    line-height: 20px;
+    font-size: 20px;
+    
+}
+section {  float: left; }
+
+
+
+
+nav select {
+  display: none;
+}
+.section1 {
+    
+}
+.section1 img{
+    margin: 30px;
+    width: 300px; 
+    height: 300px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: white;
+}
+
+body {
+    background-image: url("back.png");
+     size: cover;
+ 
+}
+
+/* HOVER */
+A.home a:hover{
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+.ul{
+    font-size: 20px;
+    line-height: 2;
+}
+.work{
+    margin: 30px;
+    text-indent: 30px;
+    border-radius: 10px;
+    font-size: 50px;
+     border: 1px solid;
+    width: 600px;
+    height: 600px;
+    display: block;
+    background-color: white;
+}
+.Gmail{
+    font-size: 20px;
+    
+}
+.contact{
+    font-size: 20px;
+}
+.skill{
+font-size: 20px;
+    line-height: 2;
+}
+
